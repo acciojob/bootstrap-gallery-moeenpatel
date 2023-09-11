@@ -1,9 +1,4 @@
 /*  your css code here. If applicable */
- .gallery-heading {
-            text-align: center;
-        }
-
-        .card {
-            border-radius: 10px;
-            cursor: pointer;
-        }
+ .cards{
+	width:50vw;
+}
