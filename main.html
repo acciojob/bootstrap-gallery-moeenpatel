@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html>
+ <!DOCTYPE html>
+<html lang="en">
 
-<head> 
-	<title>Bootstrap Gallery</title>
-	 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-	<style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <!-- Include Bootstrap CSS (use a specific version as per your requirements) -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styling for the gallery */
         .gallery-heading {
             text-align: center;
         }
@@ -14,69 +18,80 @@
             cursor: pointer;
         }
     </style>
-
 </head>
 
 <body>
-
-	<div class="container mt-4">
+    <div class="container mt-4">
         <h2 class="gallery-heading">Cards Gallery</h2>
-        <div class="row"> 
-			<div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="card" data-toggle="modal" data-target="#myModal1">
                     <img src="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg" class="card-img-top" alt="Image 1">
-					 <div class="card-body text-center">
+                    <div class="card-body text-center">
                         <h6 class="card-title">Card 1</h6>
                         <p class="card-text">Description 1</p>
                     </div>
                 </div>
             </div>
-			<div class="col-lg-4 col-md-6 col-sm-12 mb-14">
-				<div class="card" data-toggle="modal" data-target="#myModal2">
-					<img src="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg" class="card-img-top" alt="Image 2">
-					<div class="card-body text-center">
-						<h6 class="card-title">Card 2</h6>
-						<p class="card-text">Description 2</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-				<div class="card" data-toggle="modal" data-target="#myModal3">
-					<img src="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg" class="card-img-top" alt="Image 3">
-					<div class="card-body text-center">
-						<h6 class="card-title">Card 3</h6>
-						<p class="card-text">Description 3</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-				<div class="card" data-toggle="modal" data-target="#myModal4">
-					<img src="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg" class="card-img-top" alt="Image 4">
-					<div class="card-body text-center">
-						<h6 class="card-title">Card 4</h6>
-						<p class="card-text">Description 4</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-				<div class="card" data-toggle="modal" data-target="#myModal5">
-					<img src="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg" class="card-img-top" alt="Image 5">
-					<div class="card-body text-center">
-						<h6 class="card-title">Card 5</h6>
-						<p class="card-text">Description 5</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-				<div class="card" data-toggle="modal" data-target="#myModal6">
-					<img src="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg" class="card-img-top" alt="Image 6">
-					<div class="card-body text-center">
-						<h6 class="card-title">Card 6</h6>
-						<p class="card-text">Description 6</p>
-					</div>
-				</div>
-			</div>
-			 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+
+            <!-- Card 2 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card" data-toggle="modal" data-target="#myModal2">
+                    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg" class="card-img-top" alt="Image 2">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Card 2</h6>
+                        <p class="card-text">Description 2</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card" data-toggle="modal" data-target="#myModal3">
+                    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg" class="card-img-top" alt="Image 3">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Card 3</h6>
+                        <p class="card-text">Description 3</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card" data-toggle="modal" data-target="#myModal4">
+                    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg" class="card-img-top" alt="Image 4">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Card 4</h6>
+                        <p class="card-text">Description 4</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card" data-toggle="modal" data-target="#myModal5">
+                    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg" class="card-img-top" alt="Image 5">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Card 5</h6>
+                        <p class="card-text">Description 5</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card" data-toggle="modal" data-target="#myModal6">
+                    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg" class="card-img-top" alt="Image 6">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Card 6</h6>
+                        <p class="card-text">Description 6</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="card" data-toggle="modal" data-target="#myModal7">
                     <img src="https://storage.googleapis.com/acciojob-open-file-collections/image7.jpg" class="card-img-top" alt="Image 7">
                     <div class="card-body text-center">
@@ -86,6 +101,7 @@
                 </div>
             </div>
 
+            <!-- Card 8 -->
             <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="card" data-toggle="modal" data-target="#myModal8">
                     <img src="https://storage.googleapis.com/acciojob-open-file-collections/image8.jpg" class="card-img-top" alt="Image 8">
@@ -96,6 +112,7 @@
                 </div>
             </div>
 
+            <!-- Card 9 -->
             <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="card" data-toggle="modal" data-target="#myModal9">
                     <img src="https://storage.googleapis.com/acciojob-open-file-collections/image9.jpg" class="card-img-top" alt="Image 9">
@@ -106,20 +123,26 @@
                 </div>
             </div>
 
-			<div class="modal fade" id="myModal1">
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h4 class="modal-title">Card 1</h4>
-							<button type="button" class="close" data-dismiss="modal">&times;</button>
-						</div>
-						<div class="modal-body text-center">
-							<img src="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg" alt="Image 1" style="max-width: 100%;">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="modal fade" id="myModal2">
+        </div>
+    </div>
+
+    <!-- Modal for Card 1 -->
+    <div class="modal fade" id="myModal1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Card 1</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg" alt="Image 1" style="max-width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Card 2 -->
+    <div class="modal fade" id="myModal2">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
@@ -242,9 +265,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
-</script>
-
 </body>
 
 </html>
